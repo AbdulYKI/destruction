@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "destruction",
+			"Path": "C:\\unreal projects\\destruction\\Source\\destruction.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "destructionEditor",
+			"Path": "C:\\unreal projects\\destruction\\Source\\destructionEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

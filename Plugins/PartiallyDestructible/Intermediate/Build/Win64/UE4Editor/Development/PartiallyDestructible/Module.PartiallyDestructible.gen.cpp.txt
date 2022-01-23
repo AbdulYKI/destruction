@@ -1,0 +1,10 @@
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Definitions.PartiallyDestructible.h
+C:/unreal projects/destruction/Plugins/PartiallyDestructible/Intermediate/Build/Win64/UE4Editor/Inc/PartiallyDestructible/DamageLocationsCapturer.gen.cpp
+E:\Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Source\PartiallyDestructible/Public/DamageLocationsCapturer.h
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Inc\PartiallyDestructible\DamageLocationsCapturer.generated.h
+C:/unreal projects/destruction/Plugins/PartiallyDestructible/Intermediate/Build/Win64/UE4Editor/Inc/PartiallyDestructible/PartiallyDestructible.init.gen.cpp
+C:/unreal projects/destruction/Plugins/PartiallyDestructible/Intermediate/Build/Win64/UE4Editor/Inc/PartiallyDestructible/PartiallyDestructibleActor.gen.cpp
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Source\PartiallyDestructible/Public/PartiallyDestructibleActor.h
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Inc\PartiallyDestructible\PartiallyDestructibleActor.generated.h

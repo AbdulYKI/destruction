@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\unreal projects\\destruction\\Source\\destruction\\destruction.Build.cs",
+		"C:\\unreal projects\\destruction\\Plugins\\PartiallyDestructible\\Source\\PartiallyDestructible\\PartiallyDestructible.Build.cs",
+		"C:\\unreal projects\\destruction\\Source\\destruction.Target.cs",
+		"C:\\unreal projects\\destruction\\Source\\destructionEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.0"
+}

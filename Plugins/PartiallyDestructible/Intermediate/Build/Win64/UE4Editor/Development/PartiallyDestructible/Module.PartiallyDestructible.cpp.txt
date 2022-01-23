@@ -1,0 +1,28 @@
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Definitions.PartiallyDestructible.h
+C:/unreal projects/destruction/Plugins/PartiallyDestructible/Source/PartiallyDestructible/Private/DamageLocationsCapturer.cpp
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public\DamageLocationsCapturer.h
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Inc\PartiallyDestructible\DamageLocationsCapturer.generated.h
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public\PartiallyDestructibleActor.h
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Inc\PartiallyDestructible\PartiallyDestructibleActor.generated.h
+C:/unreal projects/destruction/Plugins/PartiallyDestructible/Source/PartiallyDestructible/Private/PartiallyDestructible.cpp
+C:\unreal projects\destruction\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public\PartiallyDestructible.h
+C:/unreal projects/destruction/Plugins/PartiallyDestructible/Source/PartiallyDestructible/Private/PartiallyDestructibleActor.cpp
+E:\Games\UE_4.27\Engine\Plugins\Runtime\ApexDestruction\Source\ApexDestruction\Public\DestructibleComponent.h
+E:\Games\UE_4.27\Engine\Plugins\Runtime\ApexDestruction\Source\ApexDestruction\Public\ApexDestructionCustomPayload.h
+E:\Games\UE_4.27\Engine\Source\Runtime\Engine\Public\CustomPhysXPayload.h
+E:\Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DestructibleInterface.h
+E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DestructibleInterface.generated.h
+E:\Games\UE_4.27\Engine\Plugins\Runtime\ApexDestruction\Intermediate\Build\Win64\UE4Editor\Inc\ApexDestruction\DestructibleComponent.generated.h
+E:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
+E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+E:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
+E:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+E:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+E:\Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+E:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+E:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+E:\Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

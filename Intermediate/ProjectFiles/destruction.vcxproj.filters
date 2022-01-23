@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\destruction.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F8F6BE23-FD9A-4203-9A18-C73EBAC33B78}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\destruction.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\destructionEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FE74ED06-CB1F-45A1-AB49-7469EF8815CE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{87189B3E-430F-46F3-9BB1-E2FAE0E7EE57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\PartiallyDestructible">
+      <UniqueIdentifier>{2EC3E7FE-CB89-4A5D-8390-1B7A444BDF7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\PartiallyDestructible\Source">
+      <UniqueIdentifier>{1AA2255A-0A9A-47B1-95CE-A9F20046B81A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\PartiallyDestructible\Source\PartiallyDestructible">
+      <UniqueIdentifier>{401B5C18-0F0F-410E-98ED-F7CA743275C1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\PartiallyDestructible\Source\PartiallyDestructible\PartiallyDestructible.Build.cs">
+      <Filter>Plugins\PartiallyDestructible\Source\PartiallyDestructible</Filter>
+    </None>
+    <Filter Include="Plugins\PartiallyDestructible\Source\PartiallyDestructible\Private">
+      <UniqueIdentifier>{BFD617F5-3CBA-4C81-86AD-22D503A3882D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Private\DamageLocationsCapturer.cpp">
+      <Filter>Plugins\PartiallyDestructible\Source\PartiallyDestructible\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Private\PartiallyDestructible.cpp">
+      <Filter>Plugins\PartiallyDestructible\Source\PartiallyDestructible\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Private\PartiallyDestructibleActor.cpp">
+      <Filter>Plugins\PartiallyDestructible\Source\PartiallyDestructible\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public">
+      <UniqueIdentifier>{F92559B9-7134-4A0A-8A8F-B081E4639748}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public\DamageLocationsCapturer.h">
+      <Filter>Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public\PartiallyDestructible.h">
+      <Filter>Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public\PartiallyDestructibleActor.h">
+      <Filter>Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\PartiallyDestructible\PartiallyDestructible.uplugin">
+      <Filter>Plugins\PartiallyDestructible</Filter>
+    </None>
+    <Filter Include="Plugins\PartiallyDestructible\Resources">
+      <UniqueIdentifier>{7240E485-BD08-435B-A5BD-82FCAC4B1ED3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\PartiallyDestructible\Resources\Icon128.png">
+      <Filter>Plugins\PartiallyDestructible\Resources</Filter>
+    </None>
+    <Filter Include="Source\destruction">
+      <UniqueIdentifier>{1DAA22CC-972C-4013-B91A-6459695D5582}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\destruction\destruction.Build.cs">
+      <Filter>Source\destruction</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\destruction\destruction.cpp">
+      <Filter>Source\destruction</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\destruction\destruction.h">
+      <Filter>Source\destruction</Filter>
+    </ClInclude>
+    <Filter Include="Source\destruction\Private">
+      <UniqueIdentifier>{21B652F7-39E5-4C6C-B930-924BA0A2AE90}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\destruction\Private\LocationsCapturer.cpp">
+      <Filter>Source\destruction\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\destruction\Private\PartiallyDestructibleMesh.cpp">
+      <Filter>Source\destruction\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\destruction\Public">
+      <UniqueIdentifier>{25EAF415-105B-455F-85EB-60BD58B5D2FE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\destruction\Public\LocationsCapturer.h">
+      <Filter>Source\destruction\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\destruction\Public\PartiallyDestructibleMesh.h">
+      <Filter>Source\destruction\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

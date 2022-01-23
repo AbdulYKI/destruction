@@ -1,0 +1,3 @@
+C:\unreal projects\destruction\Intermediate\Build\Win64\UE4Editor\Development\destruction\Definitions.destruction.h
+C:\unreal projects\destruction\Source\destruction\Public\DestructibleMesh.h
+C:\unreal projects\destruction\Intermediate\Build\Win64\UE4Editor\Inc\destruction\DestructibleMesh.generated.h

@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PartiallyDestructible-0021.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\unreal projects\destruction\Intermediate\Build\Win64\destructionEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Module.PartiallyDestructible.cpp.obj"
+"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Module.PartiallyDestructible.gen.cpp.obj"
+"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Default.rc2.res"
+/OUT:"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\UE4Editor-PartiallyDestructible-0021.lib"

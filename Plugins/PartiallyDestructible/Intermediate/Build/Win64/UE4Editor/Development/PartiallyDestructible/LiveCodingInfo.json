@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PartiallyDestructible.cpp.obj": [
+			"DamageLocationsCapturer.cpp.obj",
+			"PartiallyDestructible.cpp.obj",
+			"PartiallyDestructibleActor.cpp.obj"
+		],
+		"Module.PartiallyDestructible.gen.cpp.obj": [
+			"DamageLocationsCapturer.gen.cpp.obj",
+			"PartiallyDestructible.init.gen.cpp.obj",
+			"PartiallyDestructibleActor.gen.cpp.obj"
+		]
+	}
+}
