@@ -2,6 +2,6 @@
 	"BuildId": "17155196",
 	"Modules": 
 	{
-		"PartiallyDestructible": "UE4Editor-PartiallyDestructible-0021.dll"
+		"PartiallyDestructible": "UE4Editor-PartiallyDestructible.dll"
 	}
 }

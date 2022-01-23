@@ -1,5 +1,5 @@
 /MANIFEST:EMBED
-/MANIFESTINPUT:E:\Games\UE_4.27\Engine\Build\Windows\Resources\Default-Win64.manifest
+/MANIFESTINPUT:"C:\Program Files\Epic Games\UE_4.26\Engine\Build\Windows\Resources\Default-Win64.manifest"
 /NOLOGO
 /DEBUG
 /errorReport:prompt
@@ -34,13 +34,15 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\unreal projects\destruction\Intermediate\Build\Win64\destructionEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\PartiallyDestructible.cpp.obj"
+"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Module.PartiallyDestructible.cpp.obj"
+"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Module.PartiallyDestructible.gen.cpp.obj"
 "C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Default.rc2.res"
-"E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
-"E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
-"E:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
+"C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
+"C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Runtime\ApexDestruction\Intermediate\Build\Win64\UE4Editor\Development\ApexDestruction\UE4Editor-ApexDestruction.lib"
+"C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -69,3 +71,4 @@
 /IMPLIB:"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\UE4Editor-PartiallyDestructible.suppressed.lib"
 /PDB:"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Binaries\Win64\UE4Editor-PartiallyDestructible.pdb"
 /ignore:4078
+/INCLUDE:IMPLEMENT_MODULE_PartiallyDestructible
