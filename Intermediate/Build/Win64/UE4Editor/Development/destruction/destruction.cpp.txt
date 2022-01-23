@@ -1,2 +1,0 @@
-C:\unreal projects\destruction\Intermediate\Build\Win64\UE4Editor\Development\destruction\Definitions.destruction.h
-C:\unreal projects\destruction\Source\destruction\destruction.h

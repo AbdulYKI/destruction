@@ -1,5 +1,0 @@
-C:\unreal projects\destruction\Intermediate\Build\Win64\UE4Editor\Development\destruction\Definitions.destruction.h
-C:\unreal projects\destruction\Source\destruction\Public\LocationsCapturer.h
-C:\unreal projects\destruction\Intermediate\Build\Win64\UE4Editor\Inc\destruction\LocationsCapturer.generated.h
-C:\unreal projects\destruction\Source\destruction\Public\PartiallyDestructibleMesh.h
-C:\unreal projects\destruction\Intermediate\Build\Win64\UE4Editor\Inc\destruction\PartiallyDestructibleMesh.generated.h
