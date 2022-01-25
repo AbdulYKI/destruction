@@ -45,12 +45,14 @@ void APartiallyDestructibleActor::ApplyDamage()
 			{
 				DrawDebugSphere(GetWorld(),
 					WorldLoc,
-					25.0f,
+					DamageRadius,
 					12,
-					FColor::FromHex(FString("C902FFFF")),
+					FColor::FromHex(FString("E902FFFF")),
 					true,
 					-1.0f,
 					(uint8)0U, 2.0f);
+				FVector ArrowEnd= Impulse.GetSafeNormal() *450.0f + WorldLoc;
+				DrawDebugDirectionalArrow(GetWorld(), WorldLoc, ArrowEnd, 25.0f, FColor::Green, true,-1.0f,(uint8)0U,5.0f);
 			}
 		}
 

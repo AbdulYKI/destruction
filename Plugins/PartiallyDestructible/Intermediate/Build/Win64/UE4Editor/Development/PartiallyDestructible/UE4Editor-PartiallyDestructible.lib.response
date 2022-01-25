@@ -6,8 +6,9 @@
 /NAME:"UE4Editor-PartiallyDestructible.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\unreal projects\destruction\Intermediate\Build\Win64\destructionEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Module.PartiallyDestructible.cpp.obj"
-"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Module.PartiallyDestructible.gen.cpp.obj"
-"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Default.rc2.res"
-/OUT:"C:\unreal projects\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\UE4Editor-PartiallyDestructible.lib"
+"D:\unreal projects\destruction\destruction\Intermediate\Build\Win64\destructionEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\PartiallyDestructibleActor.cpp.obj"
+"D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Module.PartiallyDestructible.cpp.obj"
+"D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Module.PartiallyDestructible.gen.cpp.obj"
+"D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Default.rc2.res"
+/OUT:"D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\UE4Editor-PartiallyDestructible.lib"
