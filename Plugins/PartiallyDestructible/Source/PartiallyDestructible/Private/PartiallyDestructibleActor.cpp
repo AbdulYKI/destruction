@@ -65,10 +65,9 @@ void APartiallyDestructibleActor::ApplyDamage()
 
 }
 
-void APartiallyDestructibleActor::AddLocation(FVector& Loc)
+void APartiallyDestructibleActor::AddLocation()
 {
-	FVector LocRelativeToActor = UKismetMathLibrary::InverseTransformLocation(GetActorTransform(), Loc);
-	RelativeLocations.Add(LocRelativeToActor);
+	RelativeLocations.Add(NewLocation);
 }
 
 // Called when the game starts or when spawned

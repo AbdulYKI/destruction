@@ -17,6 +17,8 @@ public:
 		TArray<FVector> RelativeLocations;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
 		FVector Impulse;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse",meta=(MakeEditWidget = "true"))
+		FVector NewLocation=FVector(0,0,500.0f);
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
 		float DamagePerHit = 50.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
@@ -37,8 +39,8 @@ public:
 
 	void AddImpulse();
 
-	UFUNCTION(BlueprintCallable)
-		void AddLocation(FVector& Loc);
+	UFUNCTION(BlueprintCallable, CallInEditor)
+		void AddLocation();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

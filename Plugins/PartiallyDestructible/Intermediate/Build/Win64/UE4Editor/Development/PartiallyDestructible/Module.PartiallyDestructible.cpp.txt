@@ -1,8 +1,3 @@
 D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Definitions.PartiallyDestructible.h
-D:/unreal projects/destruction/destruction/Plugins/PartiallyDestructible/Source/PartiallyDestructible/Private/DamageLocationsCapturer.cpp
-D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public\DamageLocationsCapturer.h
-D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Inc\PartiallyDestructible\DamageLocationsCapturer.generated.h
-D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public\PartiallyDestructibleActor.h
-D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Inc\PartiallyDestructible\PartiallyDestructibleActor.generated.h
 D:/unreal projects/destruction/destruction/Plugins/PartiallyDestructible/Source/PartiallyDestructible/Private/PartiallyDestructible.cpp
 D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Source\PartiallyDestructible\Public\PartiallyDestructible.h
