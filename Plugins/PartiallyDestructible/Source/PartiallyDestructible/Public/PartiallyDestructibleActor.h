@@ -40,7 +40,7 @@ public:
 	void AddImpulse();
 
 	UFUNCTION(BlueprintCallable, CallInEditor)
-		void AddLocation();
+		void AddLocation(FVector x);
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

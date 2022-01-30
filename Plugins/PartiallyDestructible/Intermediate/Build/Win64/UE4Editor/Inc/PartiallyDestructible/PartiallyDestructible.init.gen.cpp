@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodePartiallyDestructible_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBAD2A4DE,
+				0xC08EC33B,
 				0xD6D3E463,
 				METADATA_PARAMS(nullptr, 0)
 			};

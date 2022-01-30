@@ -22,9 +22,10 @@ void EmptyLinkFunctionForGeneratedCodePartiallyDestructibleActor() {}
 // End Cross Module References
 	DEFINE_FUNCTION(APartiallyDestructibleActor::execAddLocation)
 	{
+		P_GET_STRUCT(FVector,Z_Param_x);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->AddLocation();
+		P_THIS->AddLocation(Z_Param_x);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(APartiallyDestructibleActor::execApplyDamage)
@@ -45,10 +46,20 @@ void EmptyLinkFunctionForGeneratedCodePartiallyDestructibleActor() {}
 	}
 	struct Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics
 	{
+		struct PartiallyDestructibleActor_eventAddLocation_Parms
+		{
+			FVector x;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_x;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::NewProp_x = { "x", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PartiallyDestructibleActor_eventAddLocation_Parms, x), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::NewProp_x,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::Function_MetaDataParams[] = {
@@ -56,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodePartiallyDestructibleActor() {}
 		{ "ModuleRelativePath", "Public/PartiallyDestructibleActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APartiallyDestructibleActor, nullptr, "AddLocation", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APartiallyDestructibleActor, nullptr, "AddLocation", nullptr, nullptr, sizeof(PartiallyDestructibleActor_eventAddLocation_Parms), Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -147,7 +158,7 @@ void EmptyLinkFunctionForGeneratedCodePartiallyDestructibleActor() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_PartiallyDestructible,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APartiallyDestructibleActor_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation, "AddLocation" }, // 4114678267
+		{ &Z_Construct_UFunction_APartiallyDestructibleActor_AddLocation, "AddLocation" }, // 1163610043
 		{ &Z_Construct_UFunction_APartiallyDestructibleActor_ApplyDamage, "ApplyDamage" }, // 95662293
 	};
 #if WITH_METADATA
@@ -270,7 +281,7 @@ void EmptyLinkFunctionForGeneratedCodePartiallyDestructibleActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APartiallyDestructibleActor, 1754614151);
+	IMPLEMENT_CLASS(APartiallyDestructibleActor, 1447537275);
 	template<> PARTIALLYDESTRUCTIBLE_API UClass* StaticClass<APartiallyDestructibleActor>()
 	{
 		return APartiallyDestructibleActor::StaticClass();

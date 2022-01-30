@@ -65,7 +65,7 @@ void APartiallyDestructibleActor::ApplyDamage()
 
 }
 
-void APartiallyDestructibleActor::AddLocation()
+void APartiallyDestructibleActor::AddLocation(FVector x)
 {
 	RelativeLocations.Add(NewLocation);
 }
