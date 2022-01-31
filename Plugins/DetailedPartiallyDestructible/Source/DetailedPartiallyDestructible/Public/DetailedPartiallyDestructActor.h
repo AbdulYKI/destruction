@@ -49,28 +49,32 @@ public:
 	// Sets default values for this actor's properties
 	ADetailedPartiallyDestructActor();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Locations")
-		TArray<FVector> RelativeLocations;
+		TArray<FImpactLocationStruct> RelativeLocations;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
-		FVector Impulse;
+		FVector NewImpulse;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse", meta = (MakeEditWidget = "true"))
 		FVector NewLocation = FVector(0, 0, 500.0f);
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
-		float DamagePerHit = 50.0f;
+		float NewDamagePerHit = 50.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
-		float DamageRadius = 50.0f;
+		float NewDamageRadius = 50.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
-		float ImpulseStrength = 1.5f;
+		float NewImpulseStrength = 1.5f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Locations")
 		bool bDrawDebugLocations = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 		UDestructibleComponent* DestructibleComp;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sequencer")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+		USceneComponent* Root;
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Interp, Category = "Sequencer")
 		bool bApplyImpulse = false;
 
 	UFUNCTION(BlueprintCallable)
-		void ApplyDamage();
+		void DestroySpecifiedLocations();
 
 	void AddImpulse();
 

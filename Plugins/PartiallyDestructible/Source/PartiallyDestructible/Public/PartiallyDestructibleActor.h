@@ -16,20 +16,23 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Locations")
 		TArray<FVector> RelativeLocations;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
-		FVector Impulse;
+		FVector UnifiedImpulse;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse",meta=(MakeEditWidget = "true"))
 		FVector NewLocation=FVector(0,0,500.0f);
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
-		float DamagePerHit = 50.0f;
+		float UnifiedDamagePerHit = 50.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
-		float DamageRadius = 50.0f;
+		float UnifiedDamageRadius = 50.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
-		float ImpulseStrength = 1.5f;
+		float UnifiedImpulseStrength = 1.5f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Locations")
 		bool bDrawDebugLocations = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 		UDestructibleComponent* DestructibleComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+		USceneComponent* Root;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sequencer")
 		bool bApplyImpulse = false;
@@ -39,8 +42,8 @@ public:
 
 	void AddImpulse();
 
-	UFUNCTION(BlueprintCallable, CallInEditor)
-		void AddLocation(FVector x);
+	UFUNCTION(BlueprintCallable, CallInEditor, Category = "Damage & Impulse")
+		void AddLocation();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
