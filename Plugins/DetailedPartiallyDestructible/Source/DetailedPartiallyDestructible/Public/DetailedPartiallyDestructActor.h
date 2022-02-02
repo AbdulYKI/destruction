@@ -46,8 +46,11 @@ class DETAILEDPARTIALLYDESTRUCTIBLE_API ADetailedPartiallyDestructActor : public
 	GENERATED_BODY()
 	
 public:	
+
 	// Sets default values for this actor's properties
 	ADetailedPartiallyDestructActor();
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Locations")
 		TArray<FImpactLocationStruct> RelativeLocations;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
@@ -60,18 +63,41 @@ public:
 		float NewDamageRadius = 50.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage & Impulse")
 		float NewImpulseStrength = 1.5f;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Locations")
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Debug")
 		bool bDrawDebugLocations = false;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Debug")
+		float ArrowLength =450.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Debug")
+		float ArrowSize = 150.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Debug", meta = (ClampMin = "3.0", ClampMax = "20.0", UIMin = "3.0", UIMax = "20.0"))
+		float ArrowThickness = 5.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Debug")
+		FColor ArrowColor =FColor::Green;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Debug")
+		FColor SphereColor = FColor::FromHex(FString("E902FFFF"));
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Debug", meta = (ClampMin = "3.0", ClampMax = "20.0", UIMin = "3.0", UIMax = "20.0"))
+		float SphereThickness = 3.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Debug", meta = (ClampMin = "5", ClampMax = "20", UIMin = "5", UIMax = "20"))
+		int32 SphereSegments =12;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 		UDestructibleComponent* DestructibleComp;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 		USceneComponent* Root;
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Interp, Category = "Sequencer")
 		bool bApplyImpulse = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Interp, Category = "Sequencer")
+		bool bDoDamageAtSepcifiedPoints = false;
+
 
 	UFUNCTION(BlueprintCallable)
 		void DestroySpecifiedLocations();
@@ -80,11 +106,13 @@ public:
 
 	UFUNCTION(BlueprintCallable, CallInEditor, Category = "Damage & Impulse")
 		void AddLocation();
+	UFUNCTION(BlueprintCallable, CallInEditor, Category = "Damage & Impulse")
+		void ResetNewLocation();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+private:
+	bool bDoOnce = true;
+
 };

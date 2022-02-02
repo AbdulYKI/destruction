@@ -1,7 +1,0 @@
-D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Development\PartiallyDestructible\Definitions.PartiallyDestructible.h
-D:/unreal projects/destruction/destruction/Plugins/PartiallyDestructible/Intermediate/Build/Win64/UE4Editor/Inc/PartiallyDestructible/PartiallyDestructible.init.gen.cpp
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:/unreal projects/destruction/destruction/Plugins/PartiallyDestructible/Intermediate/Build/Win64/UE4Editor/Inc/PartiallyDestructible/PartiallyDestructibleActor.gen.cpp
-D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Source\PartiallyDestructible/Public/PartiallyDestructibleActor.h
-D:\unreal projects\destruction\destruction\Plugins\PartiallyDestructible\Intermediate\Build\Win64\UE4Editor\Inc\PartiallyDestructible\PartiallyDestructibleActor.generated.h
