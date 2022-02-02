@@ -51,14 +51,14 @@ void ADetailedPartiallyDestructActor::DestroySpecifiedLocations()
 			{
 				DrawDebugSphere(GetWorld(),
 					WorldLoc,
-					NewDamageRadius,
-					12,
-					FColor::FromHex(FString("E902FFFF")),
+					ImpactPoint.DamageRadius,
+					SphereSegments,
+					SphereColor,
 					true,
 					-1.0f,
-					(uint8)0U, 2.0f);
-				FVector ArrowEnd = ImpactPoint.Impulse.GetSafeNormal() * 450.0f + WorldLoc;
-				DrawDebugDirectionalArrow(GetWorld(), WorldLoc, ArrowEnd, 25.0f, FColor::Green, true, -1.0f, (uint8)0U, 5.0f);
+					(uint8)0U, SphereThickness);
+				FVector ArrowEnd = ImpactPoint.Impulse.GetSafeNormal() * ArrowLength + WorldLoc;
+				DrawDebugDirectionalArrow(GetWorld(), WorldLoc, ArrowEnd, ArrowSize, ArrowColor, true, -1.0f, (uint8)0U, ArrowThickness);
 			}
 		}
 
@@ -79,6 +79,12 @@ void ADetailedPartiallyDestructActor::AddLocation()
 	FImpactLocationStruct ImpactPoint(NewImpulse, RelativeLocToDestructibleMesh, NewDamagePerHit, NewDamageRadius, NewImpulseStrength);
 	RelativeLocations.Add(ImpactPoint);
 }
+
+void ADetailedPartiallyDestructActor::ResetNewLocation()
+{
+	NewLocation = FVector(0, 0, 500.0f);
+}
+
 
 // Called when the game starts or when spawned
 void ADetailedPartiallyDestructActor::BeginPlay()
